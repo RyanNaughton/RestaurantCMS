@@ -1,0 +1,10 @@
+
+<div id="top_navigation">
+  <ul id="navigation">
+    <% @top_navs.each do |f| %>
+      <li>
+        <a href="/<%= f.nav_type %>"><%= f.display_name.titleize %></a>
+      </li>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,12 @@
+class HomeController < ApplicationController
+
+	def index
+		@restaurant = Restaurant.first
+		@events = @restaurant.events
+		@announcements = @restaurant.announcements
+		@top_navs = @restaurant.top_navs.order("'order'")
+
+	end
+
+
+end

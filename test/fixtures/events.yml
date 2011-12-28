@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyText
+  start_on: 2011-11-14 13:30:43
+  end_on: 2011-11-14 13:30:43
+  price: 1
+  restaurant_id: 1
+  gallery_id: 1
+
+two:
+  name: MyString
+  description: MyText
+  start_on: 2011-11-14 13:30:43
+  end_on: 2011-11-14 13:30:43
+  price: 1
+  restaurant_id: 1
+  gallery_id: 1

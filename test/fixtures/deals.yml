@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  long_description: MyText
+  short_description: MyText
+  discount_price: 1
+  original_price: 1
+  percent_discount: 1
+  start_on: 2011-11-14 13:26:09
+  end_on: 2011-11-14 13:26:09
+  gallery_id: 1
+
+two:
+  long_description: MyText
+  short_description: MyText
+  discount_price: 1
+  original_price: 1
+  percent_discount: 1
+  start_on: 2011-11-14 13:26:09
+  end_on: 2011-11-14 13:26:09
+  gallery_id: 1

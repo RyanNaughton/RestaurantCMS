@@ -1,0 +1,15 @@
+<div id="index_bottom_right">
+            <div class="black scroll_pane" id="BRL">
+              <h2 class="box_title">Announcements</h2>
+              <% @announcements.each do |f| %>
+                <div class = "Announcement" >
+                  <h2><%= f.name %></h2>
+                  <p class="description"><%= f.description.html_safe %></p>
+                </div>
+              <% end %>
+            </div>
+            <div class="black scroll_pane" id="BRR">
+              <h2 class="box_title">Events</h2>
+              <%= render "events/index"%>
+  </div>
+</div>

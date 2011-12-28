@@ -1,0 +1,6 @@
+<div class= "bottom_right" id="menu_bottom_right">
+  <div class="black scroll_pane">
+    <h2 class="box_title">Menu</h2>
+    <%= render :partial => "menus/index", :locals => { :children => @categories, :nesting_level => 0 }%>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<% children.each do |child| %>
+
+  <% if child.is_a?(Category) %>
+    <%= "<h#{nesting_level+1}>#{child.name}</h#{nesting_level+1}>".html_safe %>
+    <%= render :partial => "themes/avec/menus/index", :locals => { :children => child.children, :nesting_level => (nesting_level+1) }%>
+
+  <% elsif child.is_a?(MenuItem) %>
+    <div class="menu_item">
+      <% if child.name.present? %>
+        <span class = "item_name"><%= child.name %></span>
+      <% end %> 
+      <% if child.description.present? %>
+        <span class = "item_description"><%= child.description %></span>
+      <% end %>
+      <% if child.price.present? %>
+        <span class = "item_price"><%= child.price/100 %></span>
+      <% end %>
+    </div>
+  <% end %>
+
+<% end %>

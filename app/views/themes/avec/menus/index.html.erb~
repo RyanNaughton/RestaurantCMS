@@ -1,0 +1,3 @@
+
+<%= render :partial => "menu/index", :locals => { :children => @categories, :nesting_level => 0 }%>
+

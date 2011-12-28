@@ -1,0 +1,13 @@
+    <div id="wrapper">
+      <div id="left">
+        <div id="logo"><img alt="Avec-logo" src="/assets/avec-logo.png"></div>
+        <div class= "black" id="hours">
+          <p><%= @restaurant.hours %></p>
+        </div>
+      </div>
+      <div id="right">
+	<%= render "nav" %>
+	<%# render "menu_bottom_right" %>
+	<%= render "index_bottom_right" %>
+      </div>
+    </div>

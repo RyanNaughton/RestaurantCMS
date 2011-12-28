@@ -1,0 +1,6 @@
+class TopNav < ActiveRecord::Base
+
+	belongs_to :restaurant
+
+
+end

@@ -1,0 +1,2 @@
+var data = "<%= escape_javascript(render :partial => "themes/avec/events/item", :locals => { :event => @event })%>";
+$(data).hide().insertAfter("#BRR .create_button_parent").fadeIn(400);

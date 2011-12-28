@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Avec</title>
+  <%= stylesheet_link_tag    "avec" %>
+  <%= javascript_include_tag "avec" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <div id="wrapper">
+      <div id="left">
+        <div id="logo"><img alt="Avec-logo" src="assets/avec/avec-logo.png"></div>
+        <div class= "black" id="hours">
+          <p><%= @restaurant.hours %></p>
+        </div>
+      </div>
+      <div id="right">
+	      <%= render :partial => "themes/avec/topnavs/nav" %>
+        <%= yield %>
+      </div>
+   </div>
+</body>
+</html>

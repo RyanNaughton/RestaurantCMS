@@ -1,0 +1,34 @@
+//= require jquery
+//= require jquery_ujs
+//= require_tree .
+
+$(document).ready(function() {
+    $("body").ezBgResize({
+        img : "assets/picture5.jpg"
+    });
+	$('#navigation li').hover(function () {
+		$(this).css('background-color', '#FFF').children().css('color', '#000');
+	},
+    function () {
+		$(this).css('background-color', '').children().css('color', '');
+	}).click(function (e) {
+		e.preventDefault();
+		$.get("/" + $(this).text().toLowerCase(),function(data){console.log(data);});
+	});
+
+var page = 2;
+	$('.scroll_pane')
+		.bind('jsp-arrow-change',
+			  function(event, isAtTop, isAtBottom, isAtLeft, isAtRight) {
+				  if (isAtBottom) $(this).trigger('scroll_hit_bottom');
+			  })
+		.bind('scroll_hit_bottom',
+			  function () {				  
+				var api = $(this).data('jsp');
+				$.get("/events", {page: page++}, function(data){
+				  api.getContentPane().append(data);
+				  api.reinitialise();
+				}, "html");
+			  })
+		.jScrollPane();
+});

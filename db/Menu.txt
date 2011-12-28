@@ -1,0 +1,32 @@
+Dinner Menu
+	Large Plates
+		20 - whole roasted fish with watercress, creamed leeks and oyster stew 
+		15 - "deluxe" focaccia with taleggio cheese, ricotta, truffle oil and fresh herbs
+		21 - wood-oven roasted pork shoulder with puff pastry, chestnut braised cabbage and roasted apple
+		25 - whole roasted sonoma valley foie gras with roasted red grapes and pancetta 
+		15 - wood-fired flatbread with roasted garlic, potato, smoked scamorza and pickled peppers
+		21 - fermin serrano with pickled red beets and spiced buttermilk
+		16 - coriander chitarra pasta with pancetta, anchovies, barlotti beans, bitter greens and parmesan
+		16 - roasted quails with bacon, pickled celery, pear veloute and apple kidney vinaigrette
+	Small Plates
+		5 - house marinated olives
+		7 - daily antipasto
+		9 - chorizo-stuffed medjool dates with smoked bacon and piquillo pepper-tomato sauce
+		10 - whipped brandade with garlic bread and chives
+		14 - marinated hanger steak with puy lentils, melted bone marrow, spinach, tomato, oranges and fried capers
+		11 - spaghetti squash crostini with parmesan saffron cream and watercress
+		13 - atlantic salmon with celery root gratin, sweet potato and nutmeg
+		12 - roasted brussels sprouts with crispy brisket, pumpernickel, walnuts and mustard vinaigrette
+		11 - warm hen of the woods and shiitake mushroom salad with apple, red quinoa, parmesan, dill and sherry vinaigrette
+		12 - roasted squid with san marzano tomatoes, guanciale, fideo and fennel aioli
+		12 - burrata with marinated chickpeas, pistachio, golden raisins and watercress
+		5 - Daily Selection of Salumi with garniture Assortment
+	Cheese
+		6 - cheese accompaniments - red grape and marcona salad - date orange chutney - quince paste
+		15 - select 3 cheeses ~italia - toma maccagno rosso (raw cow) - pecorino crotonese (sheep) - montasio (cow)- bufala (buffalo) ~españa - iberico curado (cow, goat, sheep) - l'alt urgell (cow) ~france - tomme brebis (sheep)- normanville(cow) ~portugal - castelinhos (cow) - mendevil (cow) ~united states - flagsheep cheddar (cow, sheep)
+Desserts
+	7 - housemade chocolate crisps
+	7 - seasonal sorbet
+	7 - assorted biscotti
+	7 - buckwheat crepes with ricotta filling, goat's milk caramel and berries
+	7 - white chocolate panna cotta with maple figs and walnut shortbread

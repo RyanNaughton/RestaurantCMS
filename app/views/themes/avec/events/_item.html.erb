@@ -1,0 +1,10 @@
+<div class="Event" id="<%= dom_id(event) %>">
+  <div class= "delete_button_parent">
+    <%= link_to image_tag("avec/x.png", :border => 0), "/events/" + event.id.to_s, :confirm => "Are you sure?", :method => :delete, :remote => true %>
+  </div>
+  <% if event.start_on %>
+    <p data-attributename="date" class="date"><%= event.start_on.strftime("%B %e, %G")%></p>
+  <% end %>
+  <h2 contenteditable="true" data-attributename="name"><%= event.name %></h2>
+  <p contenteditable="true" data-attributename="description" class="description"><%= event.description %></p>
+</div>
